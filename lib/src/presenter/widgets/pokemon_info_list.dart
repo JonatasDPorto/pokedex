@@ -31,7 +31,7 @@ class PokemonInfoList extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Abilities',
+                  title,
                   style: TextStyle(
                     fontFamily: 'PokemonPixelFont',
                     fontSize: 60,
