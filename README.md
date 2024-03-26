@@ -25,7 +25,7 @@ Demonstra todos os pokemons ordenados por **ID**
 
 Mostra informações de um pokemon especifico.
 
-<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/pokemon_screen.png" alt="PokedexScreen" width="200"/>
+<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/pokemon_screen.png" alt="PokedexScreen" width="200"/><img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/pokemon_screen_2.png" alt="PokedexScreen" width="200"/>
 
 
 # Packages utilizados
