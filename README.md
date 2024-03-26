@@ -11,6 +11,8 @@ Para evitar sobrecarregar tanto a API quanto a interface do usuário, todos os r
 
 Após carregar pelo menos 100 pokemons, avança para a tela da Pokedex e continua o carregamento em background.
 
+<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/splash_screen.png" alt="PokedexScreen" width="200"/>
+
 
 ## PokedexScreen
 
