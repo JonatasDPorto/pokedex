@@ -13,10 +13,10 @@ class PokedexPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Row(
+          const Row(
             children: [
               Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: EdgeInsets.all(16.0),
                 child: SizedBox(
                   width: 42,
                   height: 42,
@@ -25,7 +25,7 @@ class PokedexPage extends StatelessWidget {
                   ),
                 ),
               ),
-              const Text(
+              Text(
                 "Pokedex",
                 style: TextStyle(
                   fontFamily: "PokemonSolid",
@@ -34,12 +34,6 @@ class PokedexPage extends StatelessWidget {
                   letterSpacing: 4,
                 ),
               ),
-              Expanded(child: SizedBox()),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child:
-                    IconButton(onPressed: () {}, icon: const Icon(Icons.info)),
-              )
             ],
           ),
           Expanded(
