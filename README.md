@@ -1,6 +1,6 @@
 # Pokedex Flutter APP
 
-Projeto com intuito de demonstrar a utilização do Mobx com Dart Clean Architecture
+Projeto com intuito de demonstrar a utilização do [Mobx](https://pub.dev/packages/mobx) com [Dart Clean Architecture](https://github.com/Flutterando/Clean-Dart)
 
 # Screens
 ## SplashScreen
