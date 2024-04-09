@@ -22,7 +22,7 @@ abstract class _PokemonStoreBase with Store {
       (pokemonList) {
         if (pokemonList.isRight) {
           pokemons.addAll(pokemonList.right);
-          if (pokemons.length > 100 && !completer.isCompleted) {
+          if (pokemons.length > 10 && !completer.isCompleted) {
             completer.complete(true);
             Future.delayed(const Duration(milliseconds: 300)).then((value) {
               Modular.to.pushNamed('/pokedex');
