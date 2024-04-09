@@ -2,6 +2,8 @@
 
 Projeto com intuito de demonstrar a utilização do [Mobx](https://pub.dev/packages/mobx) com [Dart Clean Architecture](https://github.com/Flutterando/Clean-Dart)
 
+![Demonstration](https://github.com/JonatasDPorto/pokedex/blob/main/github_assets/pokedex_video.gif)
+
 # Screens
 ## SplashScreen
 
@@ -9,25 +11,23 @@ Utilizada para carregar recursos da [PokeApi](https://pokeapi.co/).
 
 Para evitar sobrecarregar tanto a API quanto a interface do usuário, todos os recursos são carregados em lotes de até cinco por vez. Além disso, é adicionado um atraso de 100ms entre cada carga para garantir uma distribuição uniforme do processamento e proporcionar uma melhor experiência de uso, evitando que a interface fique sobrecarregada.
 
-Após carregar pelo menos 100 pokemons, avança para a tela da Pokedex e continua o carregamento em background.
+Após carregar pelo menos 10 pokemons (antes era 100 mas algumas pessoas não sabem ler), avança para a tela da Pokedex e continua o carregamento em background.
 
-Obs: Esses 100 é totalmente ajustavel e pode ser modificado a qualquer hora! BASTA LER! Aqui demora em torno de 1 segundo e meio entao deixei assim!
-
-<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/splash_screen.png" alt="PokedexScreen" width="200"/>
+<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_assets/splash_screen.png" alt="PokedexScreen" width="200"/>
 
 
 ## PokedexScreen
 
 Demonstra todos os pokemons ordenados por **ID**
 
-<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/pokedex_screen.png" alt="PokedexScreen" width="200"/>
+<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_assets/pokedex_screen.png" alt="PokedexScreen" width="200"/>
 
 
 ## PokemonScreen
 
 Mostra informações de um pokemon especifico.
 
-<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/pokemon_screen.png" alt="PokedexScreen" width="200"/><img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_images/pokemon_screen_2.png" alt="PokedexScreen" width="200"/>
+<img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_assets/pokemon_screen.png" alt="PokedexScreen" width="200"/><img src="https://github.com/JonatasDPorto/pokedex/blob/main/github_assets/pokemon_screen_2.png" alt="PokedexScreen" width="200"/>
 
 
 # Packages utilizados
